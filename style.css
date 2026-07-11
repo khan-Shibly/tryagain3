@@ -64,7 +64,8 @@ nav ul li a:hover {
 }
 
 .code {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('./banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+    url('./banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,8 +98,8 @@ nav ul li a:hover {
 
 .now {
     display: inline-block;
-    background-color: black;
-    color: goldenrod;
+    background-color: white;
+    color: rgb(61, 61, 228);
     text-decoration: none;
     padding: 14px 32px;
     border-radius: 6px;
@@ -298,4 +299,217 @@ nav ul li a:hover {
     .form-row input {
         width: 100%;
     }
+}
+
+.pricing-sec {
+    padding: 80px 20px;
+    background-color: #f8fafc;
+}
+
+.price-title {
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.price-sub {
+    font-size: 15px;
+    text-align: center;
+    color: #64748b;
+    margin: 0 0 50px 0;
+}
+
+.price-grid {
+    display: grid;
+    gap: 25px;
+    max-width: 1150px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+}
+
+.price-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top {
+    text-align: left;
+}
+
+.plan-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+    letter-spacing: 0.5px;
+}
+
+.amt {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 8px;
+}
+
+.per-sub {
+    font-size: 13px;
+    color: #64748b;
+    display: block;
+    margin-top: -2px;
+}
+
+.card-divider {
+    border: 0;
+    border-top: 1px solid #f1f5f9;
+    margin: 25px 0;
+}
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    flex-grow: 1;
+}
+
+.price-card ul li {
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.price-card ul li::before {
+    content: "•";
+    color: #2563eb;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.plan-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.standard-btn {
+    background-color: #ffffff;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.standard-btn:hover {
+    background-color: #f0f5ff;
+}
+
+
+.pro-featured {
+    background-color: #0b1528;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.3);
+}
+
+.pro-lbl {
+    color: #3b82f6;
+}
+
+.pro-featured .amt {
+    color: #ffffff;
+}
+
+.pro-featured .per-sub {
+    color: #94a3b8;
+}
+
+.dark-divider {
+    border-top: 1px solid #1e293b;
+}
+
+.pro-featured ul li {
+    color: #cbd5e1;
+}
+
+.pro-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
+.pro-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+.team-btn {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: 1px solid #0f172a;
+}
+
+.team-btn:hover {
+    background-color: #f8fafc;
+}
+
+@media (max-width: 992px) {
+    .price-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+    }
+}
+
+.footer-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #2a7aca;
+    padding: 0 25px;
+}
+
+.footer-logo { display: flex;
+    margin-right: auto;
+    height: 30px;
+    width: auto;
+}
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+.below-hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a7aca;
+    padding: 20px 10px;
+     height: 30px;
+    
+}
+
+.below-hr-text-l {
+    background-color: #2a7aca;
+    font-size: 14px;
+    color: #ffffff;
+}
+.below-hr-text-r {
+    background-color: #2a7aca;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
 }
