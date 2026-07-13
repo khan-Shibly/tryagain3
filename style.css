@@ -448,7 +448,7 @@ nav ul li a:hover {
 .hub-grid {
     margin-top: 70px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 28px;
 }
 
