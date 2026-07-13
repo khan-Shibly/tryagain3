@@ -417,6 +417,127 @@ nav ul li a:hover {
     background-color: #f0f5ff;
 }
 
+.career-hub{
+    padding:100px 8%;
+    background:#0d1117;
+}
+
+.section-title{
+    text-align:center;
+    max-width:720px;
+    margin:auto;
+}
+
+.section-tag{
+    color:#7c9cff;
+    font-size:.8rem;
+    margin-bottom:12px;
+}
+
+.section-title h2{
+    font-size:2.8rem;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.section-title p{
+    color:#b5bcc7;
+    line-height:1.7;
+}
+
+.hub-grid{
+    margin-top:70px;
+    display:grid;
+    grid-template-columns:repeat(280px,1fr);
+    gap:28px;
+}
+
+.hub-card{
+    background:#151b23;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+}
+
+.hub-card:hover{
+    border-color:#7c9cff;
+    box-shadow:0 15px 40px rgba(124,156,255,.15);
+}
+
+.hub-icon{
+    width:60px;
+    height:60px;
+    border-radius:16px;
+    background:#1f2937;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    margin-bottom:24px;
+}
+
+.hub-card h3{
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.hub-card p{
+    color:#b5bcc7;
+    line-height:1.7;
+}
+
+.featured{
+    border:none;
+    background-color:#7c9cff;
+    border-color: #111827;
+}
+
+.featured h3,
+.featured p{
+    color:#fff;
+}
+
+.featured .hub-icon{
+    background:rgba(255,255,255,.18);
+}
+
+.hub-banner{
+    margin-top:70px;
+    background:linear-gradient(90deg,#202938,#111827);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:35px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.hub-banner h3{
+    color:#fff;
+    margin-bottom:12px;
+}
+
+.hub-banner p{
+    color:#b5bcc7;
+    max-width:650px;
+    line-height:1.7;
+}
+
+.hub-btn{
+    background:#7c9cff;
+    color:#fff;
+    padding:14px 30px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hub-btn:hover{
+    background:#5b7cff;
+}
 
 .pro-featured {
     background-color: #0b1528;
